@@ -63,6 +63,7 @@ var List = []list.Item{
 	URLEncode{},
 	YAMLToJSON{},
 	Zeropad{},
+	Date{},
 }
 
 type Processor interface {
